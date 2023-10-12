@@ -17,7 +17,7 @@ The number of objects in the array is 1,000,000, and the values of 'a' and 'b' r
 
 ## Usage
 ```bash
-./json_sum_calculator -file data.json -gc 5
+./mechta -file data.json -gc 5
 ```
 - `-gc`: Number of goroutines to use for parallel processing. Default is 1.
 - `-file`: Path to the file containing JSON data. Default is data.json.
@@ -32,12 +32,12 @@ The program will output the total sum of all numbers to the console.
 ```
 2. Build the program:
 ```bash
-  cd json-sum-calculator
+  cd mechta
   go build
 ```
 3. Run the program:
 ```bash
-   ./json_sum_calculator -file data.json -gc 4
+   ./mechta -file data.json -gc 4
 ```
 
 ## Notes
