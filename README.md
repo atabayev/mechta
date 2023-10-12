@@ -19,7 +19,8 @@ The number of objects in the array is 1,000,000, and the values of 'a' and 'b' r
 ```bash
 ./json_sum_calculator -file data.json -gc 5
 ```
-- `-goroutines` (optional): Number of goroutines to use for parallel processing. Default is 1.
+- `-gc`: Number of goroutines to use for parallel processing. Default is 1.
+- `-file`: Path to the file containing JSON data. Default is data.json.
 
 ## Output
 The program will output the total sum of all numbers to the console.
